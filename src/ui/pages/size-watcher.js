@@ -50,7 +50,7 @@ function UiSwitcher(state) {
     return (
       <Container>
         <MobileUiContainer />
-        <ParticlesBg value="100" />
+        <ParticlesBg value="80" />
       </Container>
     );
   } else {

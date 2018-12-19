@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Img } from "../atoms/image";
 import image from "../../img/nature-forest.jpg";
-import personalPhoto from "../../img/_1461.jpg";
+import personalPhoto from "../../img/PassportPhoto.jpg";
 import { Name, Position } from "../molecules/main-block-text";
 import { Photo, BgPhoto } from "../molecules/main-block-photos";
 import { Links } from "../molecules/main-block-link-icons";
@@ -34,7 +34,6 @@ export const MainInfo = props => (
 				width="100%"
 				height="300px"
 				radius="4px"
-				index="0"
 			/>
 		</BgPhoto>
 		<Photo>

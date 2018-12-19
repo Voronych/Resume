@@ -23,10 +23,10 @@ const WorkBlock = styled(Animated)`
 		top: 0;
 		margin: 10px 0 0 0;
 		height: auto;
-		width: 98vw;
+		width: 98%;
 		overflow: visible;
 		max-width: 530px;
-		min-width: 400px;
+		min-width: 300px;
 z-index: 2;
 
 	}

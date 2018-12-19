@@ -10,7 +10,7 @@ export const AboutMe = props => (
 	<AboutMeContainer>
 		<Title>About Me</Title>
 		<Row>
-			I am Nazar Voronych, JS developer from Ukratne, able to work at long
+			I am Nazar Voronych, JS developer from Ukraine, able to work at long
 			term projects. Passionate about solving problems, especially in an
 			elegant and sustainable manner. Love learning about anything,
 			especially things that make me better in his field. I am learning

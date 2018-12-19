@@ -25,7 +25,7 @@ const Portolio = styled.div`
 @media (min-width: 700px) {
 	width: 530px;
 	}
-
+	width: 100%;
 	flex-direction: column;
 	align-items: center;
 	display: flex;

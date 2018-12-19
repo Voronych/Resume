@@ -26,13 +26,10 @@ class ScreenSizeWatcher extends Component {
 
 export default ScreenSizeWatcher;
 const Container = styled.div`
-height: 100%;
-
-
-justify-content: center;
+  height: 100%;
+  justify-content: center;
 
   display: flex;
-
 `;
 
 function UiSwitcher(state) {
@@ -53,7 +50,7 @@ function UiSwitcher(state) {
     return (
       <Container>
         <MobileUiContainer />
-        <ParticlesBg value='100'/>
+        <ParticlesBg value="100" />
       </Container>
     );
   } else {
@@ -65,12 +62,12 @@ function Checker() {
   console.log(this.state.render);
   if (
     window.matchMedia("(max-width: 1185px)").matches &&
-    window.matchMedia("(min-width: 700px)").matches &&
+    window.matchMedia("(min-width: 600px)").matches &&
     this.state.render !== "tablet"
   ) {
     this.setState({ render: "tablet" });
   } else if (
-    window.matchMedia("(max-width: 700px)").matches &&
+    window.matchMedia("(max-width: 600px)").matches &&
     this.state.render !== "mobile"
   ) {
     this.setState({ render: "mobile" });

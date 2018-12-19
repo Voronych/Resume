@@ -22,12 +22,12 @@ const ResumeBlock = styled(Animated)`
 		position: relative;
 		left: 0;
 		top: 0;
-		width: 98vw;
+		width: 98%;
 		height: auto;
 		margin: 10px 0 0 0;
 		overflow: visible;
 		max-width: 530px;
-		min-width: 400px;
+		min-width: 300px;
 z-index: 1;
 		
 	}

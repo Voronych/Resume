@@ -16,6 +16,5 @@ class App extends Component {
 
 export default App;
 const AppContainer = styled.div`
-
   height: 100%;
 `;

@@ -21,7 +21,7 @@ overflow: hidden;
 		position: absolute;
 		top: 98%;
 		left: 10%;
-		z-index: 1;
+		z-index: 2;
 		width: 100%;
 		height: 200px;
 		background: #ffffff;
@@ -31,7 +31,7 @@ overflow: hidden;
 export const Photo = styled.div`
 	margin: -100px 0 20px 0;
 	position: relative;
-	z-index: 1;
+	z-index: 3;
 	display: inline-block;
 	width: 140px;
 	&::before {

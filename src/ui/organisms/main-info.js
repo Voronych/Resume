@@ -9,11 +9,11 @@ import { Links } from "../molecules/main-block-link-icons";
 import { Buttons } from "../molecules/main-block-buttons";
 const Info = styled.div`
 	@media (max-width: 1185px) {
-		width: 98vw;
+		width: 98%;
 		margin: 5px 0 0 0;
 		overflow: visible;
 		max-width: 530px;
-		min-width: 400px;
+		min-width: 300px;
 	}
 	position: relative;
 	margin: 11;

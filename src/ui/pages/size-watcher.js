@@ -59,7 +59,6 @@ function UiSwitcher(state) {
 }
 
 function Checker() {
-  console.log(this.state.render);
   if (
     window.matchMedia("(max-width: 1185px)").matches &&
     window.matchMedia("(min-width: 600px)").matches &&

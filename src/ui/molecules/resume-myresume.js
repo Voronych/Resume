@@ -24,7 +24,7 @@ export const MyResume = props => (
                     name="FULL-STACK JAVASCRIPT ENGINEER"
                     company="BRANDON"
                 >
-                    Vanila JavaScript, Node.js
+                    Vanilla JavaScript, Node.js
                 </ResumeItem>
             </Column>
 

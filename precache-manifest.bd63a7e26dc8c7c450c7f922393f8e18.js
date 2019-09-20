@@ -1,23 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "c531f3f5eb7227e0e3ef",
-    "url": "/resume/static/css/main.b7f3f2cc.chunk.css"
+    "revision": "24ac31acb8fc95d22936",
+    "url": "/resume/static/css/main.15e7d4c5.chunk.css"
   },
   {
-    "revision": "c531f3f5eb7227e0e3ef",
-    "url": "/resume/static/js/main.c531f3f5.chunk.js"
+    "revision": "24ac31acb8fc95d22936",
+    "url": "/resume/static/js/main.24ac31ac.chunk.js"
   },
   {
-    "revision": "6e8d0942584e0bd54844",
-    "url": "/resume/static/js/1.6e8d0942.chunk.js"
+    "revision": "23af39d2d6165217f3e0",
+    "url": "/resume/static/js/1.23af39d2.chunk.js"
   },
   {
     "revision": "18bea22a2a5d1e1d102c",
     "url": "/resume/static/js/runtime~main.18bea22a.js"
-  },
-  {
-    "revision": "7a4c35a8d792288323b75c01af2bb038",
-    "url": "/resume/static/media/Work-Portfolio.7a4c35a8.png"
   },
   {
     "revision": "62dd5f04f212fbcd8ce7eeb8faaad96a",
@@ -28,8 +24,16 @@ self.__precacheManifest = [
     "url": "/resume/static/media/PassportPhoto.5fb50dcc.jpg"
   },
   {
+    "revision": "7a4c35a8d792288323b75c01af2bb038",
+    "url": "/resume/static/media/Work-Portfolio.7a4c35a8.png"
+  },
+  {
     "revision": "6e5c46f1aadf5c5a9e6fb3ec040f00fb",
     "url": "/resume/static/media/WorkPortfolio2.6e5c46f1.png"
+  },
+  {
+    "revision": "4ddfd727d62df59f24633606f6d0293a",
+    "url": "/resume/static/media/Lenote.4ddfd727.png"
   },
   {
     "revision": "4daea7b9fb43320efcc0671e596520b5",
@@ -112,7 +116,7 @@ self.__precacheManifest = [
     "url": "/resume/static/media/arrow-right.8e637650.svg"
   },
   {
-    "revision": "faacd770105cd1e53dcb152a1ddb1a81",
+    "revision": "7643d8a921dd0a8f10d9fdcbf730c1fd",
     "url": "/resume/index.html"
   }
 ];

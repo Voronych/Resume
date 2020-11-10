@@ -1,9 +1,9 @@
-import React from "react";
-import styled from "styled-components";
-import { Button } from "../atoms/button";
-import { Input } from "../atoms/input";
-import { TextArea } from "../atoms/text-area";
-import { ReactComponent as Arrow } from "../../img/arrow-right.svg";
+import React from 'react';
+import styled from 'styled-components';
+import { Button } from '../atoms/button';
+import { Input } from '../atoms/input';
+import { TextArea } from '../atoms/text-area';
+import { ReactComponent as Arrow } from '../../img/arrow-right.svg';
 
 const ContactFormContainer = styled.div`
 	position: relative;
@@ -13,21 +13,14 @@ const ContactFormContainer = styled.div`
 	font-size: 14px;
 `;
 
-export const ContactForm = props => (
+export const ContactForm = (props) => (
 	<ContactFormContainer>
 		<Title>Contact Me</Title>
 		<Row>
-			<Form
-				action="https://formspree.io/voronych.nazik@gmail.com"
-				method="POST"
-			>
+			<Form action="https://formspree.io/f/meqpzqnn" method="POST">
 				<Input type="text" name="name" placeholder="Full Name" />
 				<Input type="email" name="email" placeholder="Email Address" />
-				<TextArea
-					type="text"
-					name="message"
-					placeholder="Your Message"
-				/>
+				<TextArea type="text" name="message" placeholder="Your Message" />
 
 				<SendButton type="submit">
 					SEND MESSAGE <ArrowIcon />
@@ -47,7 +40,7 @@ const Title = styled.div`
 	line-height: 21px;
 	font-weight: 600;
 	&::before {
-		content: "";
+		content: '';
 		position: absolute;
 		left: -12px;
 		top: 0;
@@ -55,14 +48,10 @@ const Title = styled.div`
 		height: 30px;
 		z-index: 1;
 		border-radius: 30px;
-		background: linear-gradient(
-			135deg,
-			rgba(46, 202, 127, 0.4) 0%,
-			rgba(46, 202, 127, 0.01) 100%
-		);
+		background: linear-gradient(135deg, rgba(46, 202, 127, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
 	}
 	&::after {
-		content: "";
+		content: '';
 		position: absolute;
 		left: -40px;
 		bottom: -15px;
@@ -87,7 +76,7 @@ const Row = styled.div`
 	text-align: left;
 	font-size: 14px;
 	&::before {
-		content: "";
+		content: '';
 		position: absolute;
 		left: 0;
 		top: 0;
@@ -136,3 +125,4 @@ const Form = styled.form`
 	justify-content: space-between;
 	display: flex;
 `;
+
